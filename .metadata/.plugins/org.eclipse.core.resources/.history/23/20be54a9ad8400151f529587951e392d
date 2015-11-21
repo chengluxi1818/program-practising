@@ -1,0 +1,23 @@
+
+public class Main {
+	public static void main(String[] args) {
+		int[] array1 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+		int[] res = rotate(array1, 3);
+		System.out.print(array1);
+	}
+	
+	public static int[] rotate(int[] theArray, int pivot) {
+		for(int i = pivot; i < theArray.length; i++) {
+			int j = i;
+			int count = pivot;
+			while(count-- != 0) {
+				int temp = theArray[j-1];
+				theArray[j-1] = theArray[j];
+				theArray[j] = temp;
+				j--;
+			}
+		}
+		
+		return theArray;
+	}
+}

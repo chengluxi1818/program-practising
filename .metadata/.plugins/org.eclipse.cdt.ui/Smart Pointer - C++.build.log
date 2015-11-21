@@ -1,0 +1,15 @@
+21:00:14 **** Incremental Build of configuration Debug for project Smart Pointer - C++ ****
+make all 
+Building file: ../src/MyPointer.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MyPointer.d" -MT"src/MyPointer.d" -o "src/MyPointer.o" "../src/MyPointer.cpp"
+Finished building: ../src/MyPointer.cpp
+ 
+Building target: Smart Pointer - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Smart Pointer - C++.exe"  ./src/MyPointer.o ./src/Smart\ Pointer\ -\ C++.o   
+Finished building target: Smart Pointer - C++.exe
+ 
+
+21:00:14 Build Finished (took 640ms)
+

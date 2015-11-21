@@ -1,0 +1,22 @@
+22:17:51 **** Incremental Build of configuration Debug for project POSIX - C++ ****
+make all 
+Building file: ../src/POSIX - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/POSIX - C++.d" -MT"src/POSIX\ -\ C++.d" -o "src/POSIX - C++.o" "../src/POSIX - C++.cpp"
+../src/POSIX - C++.cpp: In function 'int main()':
+../src/POSIX - C++.cpp:35:7: warning: unused variable 'a' [-Wunused-variable]
+  int* a = 0;
+       ^
+../src/POSIX - C++.cpp:32:10: warning: 'A' is used uninitialized in this function [-Wuninitialized]
+  A->a = 0;
+          ^
+Finished building: ../src/POSIX - C++.cpp
+ 
+Building target: POSIX - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "POSIX - C++.exe"  ./src/POSIX\ -\ C++.o   
+Finished building target: POSIX - C++.exe
+ 
+
+22:17:52 Build Finished (took 604ms)
+

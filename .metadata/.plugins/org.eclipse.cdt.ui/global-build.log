@@ -1,0 +1,16 @@
+10:23:20 **** Incremental Build of configuration Debug for project Reverse String - C++ ****
+make all 
+Building file: ../src/Reverse String - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reverse String - C++.d" -MT"src/Reverse\ String\ -\ C++.d" -o "src/Reverse String - C++.o" "../src/Reverse String - C++.cpp"
+../src/Reverse String - C++.cpp: In function 'int main()':
+../src/Reverse String - C++.cpp:45:26: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+  char* str = new char[5] {'a', 'b', 'c', 'd', 'e'};
+                          ^
+Finished building: ../src/Reverse String - C++.cpp
+ 
+Building target: Reverse String - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Reverse String - C++.exe"  ./src/Reverse\ String\ -\ C++.o   
+Finished building target: Reverse String - C++.exe
+ 

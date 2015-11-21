@@ -1,0 +1,22 @@
+-- VERSION_4
+-- START DISKCACHE_2
+E:\À¢Ã‚\.metadata\.plugins\org.eclipse.core.resources\.projects\Delete Node in a Linked List - Python\com.python.pydev.analysis\v2_indexcache
+DeleteNode|1444887253539360000|E:\À¢Ã‚\Delete Node in a Linked List - Python\src\DeleteNode.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+1=DeleteNode
+3=ListNode.__init__
+2=ListNode
+-- END DICTIONARY
+-- START TREE 1
+2
+del|1|deleteNode!10@
+lis|1|ListNode!9@
+-- END TREE
+-- START TREE 2
+3
+__i|1|__init__!2&10@
+nex|1|next!3&11@
+val|1|val!3&11@
+-- END TREE

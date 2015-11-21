@@ -1,0 +1,1 @@
+CheckGreyCode.d: ../CheckGreyCode.cpp

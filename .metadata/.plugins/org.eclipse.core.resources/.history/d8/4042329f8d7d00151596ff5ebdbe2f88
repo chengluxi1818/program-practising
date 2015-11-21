@@ -1,0 +1,72 @@
+import java.util.ArrayList;
+import java.util.List;
+
+abstract class Virtual {
+	public int i = 3;
+	public static int j = 4;
+	
+	public void A() {
+		System.out.println("This is A.");
+	}
+	
+	public abstract void B();
+}
+
+class Sub extends Virtual {
+	public static int k = 5;
+	@Override
+	public void B() {
+		System.out.println("This is B.");
+	}
+	int s = 10;
+}
+
+interface Inter {
+	public int g = 6;
+}
+
+class SubInt implements Inter {
+	public int getG() {
+		return g;
+	}
+}
+
+class Super {
+	protected int a;
+	public void Set() {
+		this.a = 10;
+	}
+}
+
+class Child extends Super {
+	public void Set(int b) {
+		this.a = b;
+	}
+}
+
+public class Main {
+	
+	public static void main(String[] args) {
+/*		Sub Test = new Sub();
+		Test.A();
+		Test.B();
+		System.out.println(Test.i);
+		System.out.println(Test.j);
+		System.out.println(Test.k);
+		System.out.println(Test.s);
+		System.out.println(Virtual.j);
+		
+		Inter inter;
+		SubInt subint = new SubInt();
+		System.out.println(subint.g);
+		System.out.println(subint.getG());
+		
+		
+		List<Integer> list = new ArrayList();
+		List list1 = new ArrayList();*/
+		
+		Child test = new Child();
+		System.out.println(test.Set());
+		System.out.println(test.Set(12));
+	}
+}

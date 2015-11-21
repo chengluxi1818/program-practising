@@ -1,0 +1,20 @@
+/*
+ * Advance.h
+ *
+ *  Created on: Oct 2, 2015
+ *      Author: Luxi
+ */
+
+#ifndef ADVANCE_H_
+#define ADVANCE_H_
+
+class Advance {
+public:
+	// Original constructor
+	Advance() {
+		cout << "This is the default constructor."
+	}
+	virtual ~Advance();
+};
+
+#endif /* ADVANCE_H_ */

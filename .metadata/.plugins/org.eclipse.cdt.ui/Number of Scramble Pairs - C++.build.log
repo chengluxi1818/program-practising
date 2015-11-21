@@ -1,0 +1,15 @@
+19:59:10 **** Incremental Build of configuration Debug for project Number of Scramble Pairs - C++ ****
+make all 
+Building file: ../src/Number of Scramble Pairs - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Number of Scramble Pairs - C++.d" -MT"src/Number\ of\ Scramble\ Pairs\ -\ C++.d" -o "src/Number of Scramble Pairs - C++.o" "../src/Number of Scramble Pairs - C++.cpp"
+Finished building: ../src/Number of Scramble Pairs - C++.cpp
+ 
+Building target: Number of Scramble Pairs - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Number of Scramble Pairs - C++.exe"  ./src/Number\ of\ Scramble\ Pairs\ -\ C++.o   
+Finished building target: Number of Scramble Pairs - C++.exe
+ 
+
+19:59:12 Build Finished (took 1s.442ms)
+

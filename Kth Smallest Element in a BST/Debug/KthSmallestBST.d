@@ -1,0 +1,1 @@
+KthSmallestBST.d: ../KthSmallestBST.cpp

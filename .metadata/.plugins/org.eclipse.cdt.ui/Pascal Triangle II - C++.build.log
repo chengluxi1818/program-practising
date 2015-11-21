@@ -1,0 +1,15 @@
+11:06:43 **** Incremental Build of configuration Debug for project Pascal Triangle II - C++ ****
+make all 
+Building file: ../src/Pascal Triangle II - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pascal Triangle II - C++.d" -MT"src/Pascal\ Triangle\ II\ -\ C++.d" -o "src/Pascal Triangle II - C++.o" "../src/Pascal Triangle II - C++.cpp"
+Finished building: ../src/Pascal Triangle II - C++.cpp
+ 
+Building target: Pascal Triangle II - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Pascal Triangle II - C++.exe"  ./src/Pascal\ Triangle\ II\ -\ C++.o   
+Finished building target: Pascal Triangle II - C++.exe
+ 
+
+11:06:44 Build Finished (took 841ms)
+

@@ -1,0 +1,18 @@
+/*
+ * Advance.cpp
+ *
+ *  Created on: Oct 2, 2015
+ *      Author: Luxi
+ */
+
+#include "Advance.h"
+
+Advance::Advance() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Advance::~Advance() {
+	// TODO Auto-generated destructor stub
+}
+

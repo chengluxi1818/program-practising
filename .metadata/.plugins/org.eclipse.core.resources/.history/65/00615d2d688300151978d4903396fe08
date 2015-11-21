@@ -1,0 +1,17 @@
+package OOD;
+
+public class HashtablePractise {
+	
+}
+
+class LinkPractise {
+	String key;
+	int val;
+	Link next;
+	public LinkPractise(String k) {
+		this.key = k;
+		this.next = null;
+	}
+}
+
+

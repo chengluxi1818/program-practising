@@ -1,0 +1,15 @@
+14:56:33 **** Incremental Build of configuration Debug for project Virtual Inheritance - C++ ****
+make all 
+Building file: ../src/Virtual Inheritance - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Virtual Inheritance - C++.d" -MT"src/Virtual\ Inheritance\ -\ C++.d" -o "src/Virtual Inheritance - C++.o" "../src/Virtual Inheritance - C++.cpp"
+Finished building: ../src/Virtual Inheritance - C++.cpp
+ 
+Building target: Virtual Inheritance - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Virtual Inheritance - C++.exe"  ./src/Virtual\ Inheritance\ -\ C++.o   
+Finished building target: Virtual Inheritance - C++.exe
+ 
+
+14:56:34 Build Finished (took 779ms)
+

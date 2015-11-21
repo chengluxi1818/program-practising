@@ -1,0 +1,15 @@
+21:04:57 **** Incremental Build of configuration Debug for project Reverse Integer - C++ ****
+make all 
+Building file: ../src/Reverse Integer - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reverse Integer - C++.d" -MT"src/Reverse\ Integer\ -\ C++.d" -o "src/Reverse Integer - C++.o" "../src/Reverse Integer - C++.cpp"
+Finished building: ../src/Reverse Integer - C++.cpp
+ 
+Building target: Reverse Integer - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Reverse Integer - C++.exe"  ./src/Reverse\ Integer\ -\ C++.o   
+Finished building target: Reverse Integer - C++.exe
+ 
+
+21:04:58 Build Finished (took 862ms)
+

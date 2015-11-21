@@ -1,0 +1,1 @@
+StrCpy.d: ../StrCpy.cpp

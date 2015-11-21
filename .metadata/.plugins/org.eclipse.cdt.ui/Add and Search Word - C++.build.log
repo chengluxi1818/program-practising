@@ -1,0 +1,24 @@
+19:30:30 **** Incremental Build of configuration Debug for project Add and Search Word - C++ ****
+make all 
+Building file: ../src/Add and Search Word - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Add and Search Word - C++.d" -MT"src/Add\ and\ Search\ Word\ -\ C++.d" -o "src/Add and Search Word - C++.o" "../src/Add and Search Word - C++.cpp"
+In file included from ../src/Add and Search Word - C++.cpp:10:0:
+../src/WordDictionary.h: In member function 'void WordDictionary::addWord(std::string)':
+../src/WordDictionary.h:41:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i < word.size(); i++) {
+                          ^
+../src/WordDictionary.h: In member function 'bool WordDictionary::searchRest(TrieNode*, const char*)':
+../src/WordDictionary.h:75:5: warning: control reaches end of non-void function [-Wreturn-type]
+     }
+     ^
+Finished building: ../src/Add and Search Word - C++.cpp
+ 
+Building target: Add and Search Word - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Add and Search Word - C++.exe"  ./src/Add\ and\ Search\ Word\ -\ C++.o ./src/WordDictionary.o   
+Finished building target: Add and Search Word - C++.exe
+ 
+
+19:30:31 Build Finished (took 806ms)
+

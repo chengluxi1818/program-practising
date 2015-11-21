@@ -1,0 +1,20 @@
+package OOD;
+
+public class HashtablePractise {
+	private List<LinkPractise> table;
+	private int tableSize;
+	private int numElemt;
+}
+
+class LinkPractise {
+	private String key;
+	private int val;
+	private Link next;
+	
+	public LinkPractise(String k) {
+		this.key = k;
+		this.next = null;
+	}
+}
+
+

@@ -1,0 +1,28 @@
+15:09:07 **** Incremental Build of configuration Debug for project Trie Test - C++ ****
+make all 
+Building file: ../src/Trie Test - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Trie Test - C++.d" -MT"src/Trie\ Test\ -\ C++.d" -o "src/Trie Test - C++.o" "../src/Trie Test - C++.cpp"
+In file included from ../src/Trie Test - C++.cpp:11:0:
+../src/Trie.h: In member function 'void Trie::insert(std::string)':
+../src/Trie.h:57:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i < word.size(); i++) {
+                          ^
+../src/Trie.h: In member function 'bool Trie::search(std::string)':
+../src/Trie.h:74:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i < word.size(); i++) {
+                          ^
+../src/Trie.h: In member function 'bool Trie::startsWith(std::string)':
+../src/Trie.h:90:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         for(int i = 0; i < prefix.size(); i++) {
+                          ^
+Finished building: ../src/Trie Test - C++.cpp
+ 
+Building target: Trie Test - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Trie Test - C++.exe"  ./src/Trie\ Test\ -\ C++.o ./src/Trie.o   
+Finished building target: Trie Test - C++.exe
+ 
+
+15:09:08 Build Finished (took 751ms)
+

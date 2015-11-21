@@ -1,0 +1,1 @@
+ReverseWordinString.d: ../ReverseWordinString.cpp

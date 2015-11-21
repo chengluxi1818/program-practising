@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=61028A8B
+eax=00000000 ebx=664EF8E8 ecx=00000004 edx=00000004 esi=00000063 edi=611A2A6C
+ebp=00000000 esp=0028CB50 program=E:\刷题\POSIX - C++\Debug\POSIX - C++.exe, pid 8784, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+End of stack trace

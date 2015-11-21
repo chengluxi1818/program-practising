@@ -1,0 +1,20 @@
+12:04:49 **** Incremental Build of configuration Debug for project Linked List Functions and Test - C++ ****
+make all 
+Building file: ../src/Linked List Functions and Test - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Linked List Functions and Test - C++.d" -MT"src/Linked\ List\ Functions\ and\ Test\ -\ C++.d" -o "src/Linked List Functions and Test - C++.o" "../src/Linked List Functions and Test - C++.cpp"
+Finished building: ../src/Linked List Functions and Test - C++.cpp
+ 
+Building file: ../src/LinkedList.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LinkedList.d" -MT"src/LinkedList.d" -o "src/LinkedList.o" "../src/LinkedList.cpp"
+Finished building: ../src/LinkedList.cpp
+ 
+Building target: Linked List Functions and Test - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Linked List Functions and Test - C++.exe"  ./src/Linked\ List\ Functions\ and\ Test\ -\ C++.o ./src/LinkedList.o   
+Finished building target: Linked List Functions and Test - C++.exe
+ 
+
+12:04:50 Build Finished (took 992ms)
+

@@ -1,0 +1,32 @@
+20:15:57 **** Incremental Build of configuration Debug for project Everything of Strings - C++ ****
+make all 
+Building file: ../src/Everything of Strings - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Everything of Strings - C++.d" -MT"src/Everything\ of\ Strings\ -\ C++.d" -o "src/Everything of Strings - C++.o" "../src/Everything of Strings - C++.cpp"
+../src/Everything of Strings - C++.cpp: In function 'int main()':
+../src/Everything of Strings - C++.cpp:49:38: error: 'stoi' was not declared in this scope
+  int i_hex = stoi (str_hex,nullptr,16);
+                                      ^
+../src/Everything of Strings - C++.cpp:61:26: error: 'to_string' was not declared in this scope
+  pi = to_string(3.1415926);
+                          ^
+../src/Everything of Strings - C++.cpp:67:23: error: 'itoa' was not declared in this scope
+  itoa(cint, buffer, 10);
+                       ^
+../src/Everything of Strings - C++.cpp:49:6: warning: unused variable 'i_hex' [-Wunused-variable]
+  int i_hex = stoi (str_hex,nullptr,16);
+      ^
+../src/Everything of Strings - C++.cpp:50:6: warning: unused variable 'i_bin' [-Wunused-variable]
+  int i_bin = stoi (str_bin,nullptr,2);
+      ^
+../src/Everything of Strings - C++.cpp:51:6: warning: unused variable 'i_auto' [-Wunused-variable]
+  int i_auto = stoi (str_auto,nullptr,0);
+      ^
+../src/Everything of Strings - C++.cpp:70:6: warning: unused variable 'cint2' [-Wunused-variable]
+  int cint2 = atoi(buffer);
+      ^
+src/subdir.mk:18: recipe for target 'src/Everything of Strings - C++.o' failed
+make: *** [src/Everything of Strings - C++.o] Error 1
+
+20:15:57 Build Finished (took 445ms)
+

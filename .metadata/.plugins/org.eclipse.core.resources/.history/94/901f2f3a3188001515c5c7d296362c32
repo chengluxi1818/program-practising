@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		
+	}
+	
+	public static List<Integer> bestCity(List<Integer> a, List<Integer> b, List<List<Integer> > citymap) {
+		List<Integer> res = new ArrayList<Integer>();
+		
+		for(int i = 0; i < a.size(); i++) {
+			if(a.get(i) == Integer.MAX_VALUE || b.get(i) == Integer.MAX_VALUE)
+				continue;
+			
+			if(a.get(i) == b.get(i)) {
+				res.add(a.get(i));
+				continue;
+			
+			// TODO: Calculate distance between a City and b City
+		}
+			
+		return res;
+	}
+		
+}

@@ -1,0 +1,15 @@
+15:07:45 **** Incremental Build of configuration Debug for project Abstract Classes - C++ ****
+make all 
+Building file: ../src/Abstract Classes - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Abstract Classes - C++.d" -MT"src/Abstract\ Classes\ -\ C++.d" -o "src/Abstract Classes - C++.o" "../src/Abstract Classes - C++.cpp"
+Finished building: ../src/Abstract Classes - C++.cpp
+ 
+Building target: Abstract Classes - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Abstract Classes - C++.exe"  ./src/Abstract\ Classes\ -\ C++.o ./src/Shape.o   
+Finished building target: Abstract Classes - C++.exe
+ 
+
+15:07:45 Build Finished (took 742ms)
+

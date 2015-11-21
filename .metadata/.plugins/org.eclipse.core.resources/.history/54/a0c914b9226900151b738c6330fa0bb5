@@ -1,0 +1,18 @@
+/*
+ * Template.cpp
+ *
+ *  Created on: Oct 2, 2015
+ *      Author: Luxi
+ */
+
+#include "Template.h"
+
+Template::Template() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Template::~Template() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,1 @@
+BSTBasic.d: ../BSTBasic.cpp

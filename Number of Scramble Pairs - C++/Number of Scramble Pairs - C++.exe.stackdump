@@ -1,0 +1,7 @@
+Exception: STATUS_INTEGER_DIVIDE_BY_ZERO at eip=6D616A7B
+eax=00000001 ebx=00000000 ecx=00000000 edx=00000000 esi=00000000 edi=00000000
+ebp=00000000 esp=0028CA50 program=E:\刷题\Number of Scramble Pairs - C++\Debug\Number of Scramble Pairs - C++.exe, pid 7260, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+End of stack trace

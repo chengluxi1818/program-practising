@@ -1,0 +1,15 @@
+16:06:07 **** Incremental Build of configuration Debug for project Implement strcpy - C++ ****
+make all 
+Building file: ../StrCpy.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"StrCpy.d" -MT"StrCpy.d" -o "StrCpy.o" "../StrCpy.cpp"
+Finished building: ../StrCpy.cpp
+ 
+Building target: Implement strcpy - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Implement strcpy - C++.exe"  ./StrCpy.o   
+Finished building target: Implement strcpy - C++.exe
+ 
+
+16:06:07 Build Finished (took 646ms)
+

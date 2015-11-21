@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : Advanced.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+
+#include "Advance.h"
+#include "Template.h"
+
+using namespace std;
+
+int main() {
+
+	Advance a(1, 2);
+	Advance test;
+
+	a.printXY();
+	test.printXY();
+	test = a;
+	test.printXY();
+
+	return 0;
+}

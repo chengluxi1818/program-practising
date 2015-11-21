@@ -1,0 +1,20 @@
+15:46:54 **** Incremental Build of configuration Debug for project Test of Copy Constructor - C++ ****
+make all 
+Building file: ../src/CopyConstructor.cpp
+Invoking: Cygwin C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/CopyConstructor.d" -MT"src/CopyConstructor.d" -o "src/CopyConstructor.o" "../src/CopyConstructor.cpp"
+Finished building: ../src/CopyConstructor.cpp
+ 
+Building file: ../src/Test of Copy Constructor - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Test of Copy Constructor - C++.d" -MT"src/Test\ of\ Copy\ Constructor\ -\ C++.d" -o "src/Test of Copy Constructor - C++.o" "../src/Test of Copy Constructor - C++.cpp"
+Finished building: ../src/Test of Copy Constructor - C++.cpp
+ 
+Building target: Test of Copy Constructor - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Test of Copy Constructor - C++.exe"  ./src/CopyConstructor.o ./src/Test\ of\ Copy\ Constructor\ -\ C++.o   
+Finished building target: Test of Copy Constructor - C++.exe
+ 
+
+15:46:56 Build Finished (took 1s.243ms)
+

@@ -1,0 +1,8 @@
+
+public class Main {
+	public static int[] rotate(int[] theArray, int pivot) {
+		for(int i = pivot; i < theArray.length; i++) {
+			
+		}
+	}
+}

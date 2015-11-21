@@ -1,0 +1,33 @@
+/*
+ * Advance.h
+ *
+ *  Created on: Oct 2, 2015
+ *      Author: Luxi
+ */
+
+#include <iostream>
+using namespace std;
+
+#ifndef ADVANCE_H_
+#define ADVANCE_H_
+
+class Advance {
+private:
+	int x;
+	int y;
+public:
+	// Original constructor
+	Advance() {
+		cout << "This is the default constructor." << endl;
+	}
+	// Overloaded constructor
+	Advance(int a) {
+		cout << "This is the overloaded constructor. A = " << a << endl;
+	}
+
+
+
+	virtual ~Advance();
+};
+
+#endif /* ADVANCE_H_ */

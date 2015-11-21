@@ -1,0 +1,15 @@
+21:46:05 **** Incremental Build of configuration Debug for project Multithreading - C++ ****
+make all 
+Building file: ../src/Multithreading - C++.cpp
+Invoking: Cygwin C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Multithreading - C++.d" -MT"src/Multithreading\ -\ C++.d" -o "src/Multithreading - C++.o" "../src/Multithreading - C++.cpp"
+Finished building: ../src/Multithreading - C++.cpp
+ 
+Building target: Multithreading - C++.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Multithreading - C++.exe"  ./src/Multithreading\ -\ C++.o   
+Finished building target: Multithreading - C++.exe
+ 
+
+21:46:06 Build Finished (took 1s.29ms)
+
